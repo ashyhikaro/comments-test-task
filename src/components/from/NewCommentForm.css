@@ -1,0 +1,31 @@
+.newcomment_from {
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.newcomment_area {
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+}
+
+.send_btn {
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 8px 15px;
+    background-color: rgb(133, 33, 33);
+    position: absolute;
+    right: -30px;
+    top: 60px;
+    cursor: pointer;
+    transition: background-color 0.24s ease-out;
+}
+
+.send_btn:hover {
+    background-color: rgb(110, 28, 28);
+}

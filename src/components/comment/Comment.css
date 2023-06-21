@@ -1,0 +1,66 @@
+.comment__container {
+    margin-bottom: 60px;
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    position: relative;
+}
+
+.delete_btn {
+    background-color: rgb(213, 149, 31);
+    color: black;
+    border-radius: 100%;
+    position: absolute;
+    padding: 5px 8px;
+    right: -10px;
+    top: -15px;
+    cursor: pointer;
+    transition: color 0.24s ease-out;
+}
+
+.delete_btn:hover {
+    color: white;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -42px;
+    left: -54px;
+}
+
+.initials {
+    background-color: rgb(213, 149, 31);
+    font-size: 40px;
+    text-transform: uppercase;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    padding: 18px 0;
+}
+
+.username {
+    color: black;
+    font-weight: 600;
+    padding: 10px 15px;
+    background-color: rgb(213, 149, 31);
+    margin-left: -5px;
+    width: 160px;
+}
+
+.comment_body {
+    background-color: white;
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+    height: auto;
+    min-height: 80px;
+    padding: 30px 15px 15px 15px;
+}
+
+.hidden {
+    display: none;
+}
